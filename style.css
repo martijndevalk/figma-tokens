@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import url('cssGlobal/variables.css');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,14 +8,13 @@
 
 html {
   block-size: 100%;
-  color-scheme: dark light;
+  /* color-scheme: dark light; */
 }
 
 body {
   min-block-size: 100%;
-  font-family: system-ui, sans-serif;
-
-
+  background-color: var(--global-colors-white);
+  font-family: var(--global-font-family-base);
   display: grid;
   place-content: center;
   place-items: center;
@@ -21,6 +23,15 @@ body {
 }
 
 button {
+  padding: 10px 20px;
   border: none;
-  font-size: 4rem;
+  background-color: var(--global-colors-blue);
+  color: var(--global-colors-white);
+  border-radius: var(--global-border-radius-10);
+  font-weight: var(--global-font-weight-black);
+  font-size: var(--global-font-size-24);
+  text-transform: uppercase;
 }
+
+
+

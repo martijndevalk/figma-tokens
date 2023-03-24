@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build-tokens": "style-dictionary build"
+  },
   "dependencies": {
     "style-dictionary": "^3.7.2"
   }
