@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 24 Mar 2023 15:20:15 GMT
+ * Generated on Mon, 27 Mar 2023 18:55:33 GMT
  */
 
 :root {
@@ -13,8 +13,11 @@
   --global-box-shadow-strong: [object Object];
   --global-box-shadow-soft: [object Object];
   --global-font-family-base: Inter, sans-serif;
-  --global-font-family-alt: Open Sans, sans-serif;
+  --global-font-family-alt: Poppins, sans-serif;
   --global-font-weight-black: 900;
+  --global-font-weight-bold: 700;
   --global-font-size-24: 24px;
+  --global-font-size-44: 44px;
+  --global-letter-spacing-2: 2%;
   --theme-colors-red: #f21f1f;
 }
